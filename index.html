@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axel Moncayo Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+
+  <body>
+    <header class="header header-inicio">
+      <div class="contenido-header contenedor">
+        <div class="barra">
+
+          <nav class="nav-principal">
+            <a href="index.html">Home</a>
+            <a href="#sobreMi">About Me</a>
+            <a href="#habilidades">Skills</a>
+            <a href="#proyectos">Projects</a>
+          </nav>
+        </div>
+        <div>
+          <h1 class="titulo">Axel Moncayo<br />Web Developer</h1>
+          <a
+            href="https://drive.google.com/file/d/1JMh6JFeZO8sBRQ_I_aguEc6SYTfgC7w-/view?usp=drive_link"
+            target="_blank"
+          >
+            <button class="boton">Curriculum</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="contenedor sobreMi center" id="sobreMi">
+      <div class="conoce">
+        <h2>About Me</h2>
+
+        <div class="conoce__grid">
+          <div>
+            <img src="build/img/foto-3-1.png" alt="foto logo" />
+          </div>
+
+          <p>
+            Hello! I'm Axel, a passionate Frontend developer with experience in
+            creating interactive and appealing websites. My goal is to combine
+            my technical skills with my passion for design to deliver
+            high-quality digital experiences. Ever since I discovered web
+            development, I have dedicated myself to improving my skills and
+            staying up-to-date with the latest trends in frontend development.
+            My education and experience have provided me with knowledge in
+            technologies like HTML, CSS, JavaScript, and the SASS preprocessor.
+          </p>
+        </div>
+      </div>
+
+      <div class="iconos">
+        <div class="listado-iconos">
+          <div class="icono">
+            <a href="https://www.linkedin.com/in/axel-moncayo/" target="_blank">
+              <img src="build/img/linked_logo.svg" alt="iconos de contacto" />
+              <p>LinkedIn</p>
+            </a>
+          </div>
+          <div class="icono">
+            <a href="https://github.com/AxelMoncayoM" target="_blank">
+              <img src="build/img/github_logo.svg" alt="iconos de contacto" />
+              <p>Github</p>
+            </a>
+          </div>
+          <div class="icono">
+            <a href="mailto:axel.moncayo.dev@gmail.com">
+              <img src="build/img/email_logo.svg" alt="iconos de contacto" />
+              <p>Email</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contenedor contenedor-habilidades" id="habilidades">
+      <h2 class="titulo-habilidades">Skills</h2>
+
+      <div class="habilidades" data-aos="flip-right">
+        <div class="habilidad">
+          <img src="build/img/html_logo.svg" alt="icono html" />
+          <p>HTML</p>
+        </div>
+
+        <div class="habilidad">
+          <img src="build/img/css_logo.svg" alt="icono css" />
+          <p>CSS</p>
+        </div>
+
+        <div class="habilidad">
+          <img src="build/img/sass_logo.svg" alt="icono sass" />
+          <p>SASS</p>
+        </div>
+
+        <div class="habilidad">
+          <img src="build/img/javascript_logo.svg" alt="icono javascript" />
+          <p>JAVASCRIPT</p>
+        </div>
+
+        <div class="habilidad">
+          <img src="build/img/gulp_logo.svg" alt="icono gulp" />
+          <p>GULP</p>
+        </div>
+
+        <div class="habilidad">
+          <img src="build/img/git_logo.svg" alt="icono git" />
+          <p>GIT</p>
+        </div>
+      </div>
+    </section>
+
+    <main class="contenedor proyectos" id="proyectos">
+      <h2>Projects</h2>
+
+      <a
+        class="proyecto"
+        href="https://bienes-raices-web-project.netlify.app/"
+        target="_blank"
+      >
+        <!-- <div class="proyecto"> -->
+        <div class="imagen" data-aos="fade-right">
+          <img src="build/img/bienes_raices.png" alt="imagen de proyecto" />
+        </div>
+
+        <div class="texto" data-aos="fade-left">
+          <h3>Real Estate</h3>
+          <p>
+            This project focuses on a real estate business and has been
+            developed with a mobile-first approach. It utilizes SASS compiled
+            with Gulp and JavaScript code. The project consists of several
+            pages, including a blog, a form, and a store that displays
+            properties in a card format. Additionally, a dropdown menu has been
+            implemented. One prominent feature of the project is the night mode,
+            which can be activated by clicking on its respective icon.
+          </p>
+        </div>
+        <!-- </div> -->
+      </a>
+
+      <a
+        class="proyecto"
+        href="https://architecture-forest-page.netlify.app"
+        target="_blank"
+      >
+        <!-- <div class="proyecto"> -->
+        <div class="imagen" data-aos="fade-left">
+          <img src="build/img/arquitectura.png" alt="imagen de proyecto" />
+        </div>
+
+        <div class="texto" data-aos="fade-right">
+          <h3>Architecture</h3>
+          <p>
+            This is a simple project for selling houses near forests. It is
+            developed exclusively using HTML and CSS code. A mobile-first
+            development methodology has been applied, prioritizing the user
+            experience on mobile devices. Regarding the site's structure, a
+            hero-type header has been implemented, and the grid technique has
+            been used to organize the content efficiently. This straightforward
+            yet carefully designed approach ensures that the project is visually
+            appealing and accessible to users.
+          </p>
+        </div>
+        <!-- </div> -->
+      </a>
+
+      <a
+        class="proyecto"
+        href="https://rock-music-festival.netlify.app"
+        target="_blank"
+      >
+        <!-- <div class="proyecto"> -->
+        <div class="imagen" data-aos="fade-right">
+          <img src="build/img/rock_festival.png" alt="imagen de proyecto" />
+        </div>
+
+        <div class="texto" data-aos="fade-left">
+          <h3>Music Festival</h3>
+          <p>
+            This project is the website for a Rock music event. It has been
+            developed following the mobile-first methodology, using SASS and
+            JavaScript. It features a fixed navigation bar along with an
+            interactive scrolling function. The project also includes an image
+            gallery that adapts to the device's size, along with the option to
+            select images for a larger view. Additionally, the images have been
+            optimized in terms of their weight, thanks to the use of Gulp. This
+            ensures the page loads efficiently by reducing loading times.
+          </p>
+        </div>
+        <!-- </div> -->
+      </a>
+
+      <a
+        class="proyecto"
+        href="https://axelmoncayom.github.io/coffee/"
+        target="_blank"
+      >
+        <!-- <div class="proyecto"> -->
+        <div class="imagen" data-aos="fade-left">
+          <img src="build/img/cafeteria.png" alt="imagen de proyecto" />
+        </div>
+
+        <div class="texto" data-aos="fade-right">
+          <h3>Coffee Shop</h3>
+          <p>
+            This project is a website for a coffee shop and has been developed
+            following the mobile-first methodology. It primarily uses the SASS
+            preprocessor, which is compiled using Gulp.js. The project consists
+            of several pages, where various development techniques have been
+            applied, including grid and flexbox. Additionally, several
+            pseudoselectors have been used to add specific styles to elements.
+          </p>
+        </div>
+        <!-- </div> -->
+      </a>
+
+      <a
+        class="proyecto"
+        href="https://podcast-page-project.netlify.app"
+        target="_blank"
+      >
+        <!-- <div class="proyecto"> -->
+        <div class="imagen" data-aos="fade-right">
+          <img src="build/img/podcast.png" alt="imagen de proyecto" />
+        </div>
+
+        <div class="texto" data-aos="fade-left">
+          <h3>Podcast FM</h3>
+          <p>
+            This project is a website dedicated to podcast services and has been
+            developed using only HTML and SASS. The mobile-first methodology has
+            been applied to ensure an optimal experience on mobile devices.
+            Additionally, the BEM (Block Element Modifier) methodology has been
+            used to optimize the structure and readability of the code.
+          </p>
+        </div>
+        <!-- </div> -->
+      </a>
+    </main>
+
+    <footer class="contenedor-footer">
+      <div class="contenedor footer">
+        <nav class="nav-principal">
+          <a href="index.html">Home</a>
+          <a href="#sobreMi">About Me</a>
+          <a href="#habilidades">Skills</a>
+          <a href="#proyectos">Projects</a>
+        </nav>
+        <p class="center">Copyright &copy; Axel Moncayo</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="build/js/app.js"></script>
+  </body>
+</html>

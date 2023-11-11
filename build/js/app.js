@@ -1,0 +1,2 @@
+function iniciarApp(){scrollNav(),scrollAnimate()}function scrollAnimate(){AOS.init({duration:1e3,once:!1})}function scrollNav(){document.querySelectorAll(".nav-principal a").forEach(n=>{n.addEventListener("click",(function(n){n.preventDefault();const e=n.target.attributes.href.value;document.querySelector(e).scrollIntoView({behavior:"smooth"})}))})}document.addEventListener("DOMContentLoaded",(function(){iniciarApp()}));
+//# sourceMappingURL=app.js.map
